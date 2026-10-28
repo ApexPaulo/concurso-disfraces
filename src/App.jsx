@@ -471,6 +471,14 @@ export default function App() {
                     {copiedWifi ? <Check size={16} /> : <Copy size={16} />}
                     <span>{copiedWifi ? '¡Copiado!' : 'Copiar Link'}</span>
                   </button>
+                  <a
+                    href="/qr-concurso.png"
+                    download="qr-concurso-disfraces.png"
+                    className="btn-copy"
+                    style={{ textDecoration: 'none' }}
+                  >
+                    <span>Descargar QR</span>
+                  </a>
                 </div>
                 <p className="wifi-hint">
                   Los invitados entran directo sin contraseña ni registro y solo pueden votar 1 vez.

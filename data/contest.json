@@ -1,5 +1,103 @@
 {
-  "revealed": false,
-  "participants": [],
-  "votesByVoter": {}
+  "revealed": true,
+  "participants": [
+    {
+      "id": "3c97cf9e-a805-42f4-a1ea-78512250d645",
+      "name": "Javi",
+      "costume": "Carnitas",
+      "imageUrl": "/uploads/3c97cf9e-a805-42f4-a1ea-78512250d645.jpg",
+      "createdAt": "2026-10-27T22:39:53.982Z"
+    },
+    {
+      "id": "2e5556bc-217e-43ab-9de4-8ebaf7f14047",
+      "name": "Josi",
+      "costume": "Calabaza",
+      "imageUrl": "/uploads/2e5556bc-217e-43ab-9de4-8ebaf7f14047.jpg",
+      "createdAt": "2026-10-27T22:40:08.116Z"
+    },
+    {
+      "id": "0f8f2324-7d41-41f8-837d-bb43b5ce84fd",
+      "name": "Fer",
+      "costume": "Sheriff",
+      "imageUrl": "/uploads/0f8f2324-7d41-41f8-837d-bb43b5ce84fd.jpg",
+      "createdAt": "2026-10-27T22:40:20.892Z"
+    },
+    {
+      "id": "4599537c-eaf4-4157-a35c-6733cbc07eaf",
+      "name": "Fer y Paulo",
+      "costume": "Secreto en la montaña",
+      "imageUrl": "/uploads/4599537c-eaf4-4157-a35c-6733cbc07eaf.jpg",
+      "createdAt": "2026-10-27T22:40:48.225Z"
+    },
+    {
+      "id": "e8c68464-393f-4f29-badb-87f926628869",
+      "name": "Karen",
+      "costume": "Vaquita",
+      "imageUrl": "/uploads/e8c68464-393f-4f29-badb-87f926628869.jpg",
+      "createdAt": "2026-10-27T22:40:59.676Z"
+    },
+    {
+      "id": "aa0816ba-f49a-4dbc-bf64-f4cafc5b5445",
+      "name": "Karim",
+      "costume": "T rex",
+      "imageUrl": "/uploads/aa0816ba-f49a-4dbc-bf64-f4cafc5b5445.jpg",
+      "createdAt": "2026-10-27T22:41:14.955Z"
+    },
+    {
+      "id": "a43df80d-5ebf-4cd7-bd3b-d4549e8ad56c",
+      "name": "Yu",
+      "costume": "Einstein",
+      "imageUrl": "/uploads/a43df80d-5ebf-4cd7-bd3b-d4549e8ad56c.jpg",
+      "createdAt": "2026-10-27T22:41:43.300Z"
+    },
+    {
+      "id": "2cd771a9-c923-4506-bfc9-6691b623ce1d",
+      "name": "Angel",
+      "costume": "Ghost",
+      "imageUrl": "/uploads/2cd771a9-c923-4506-bfc9-6691b623ce1d.jpg",
+      "createdAt": "2026-10-27T22:42:04.097Z"
+    },
+    {
+      "id": "64293bc9-ba2b-4bf1-981a-d47b862d5c7a",
+      "name": "Mary The",
+      "costume": "Venado",
+      "imageUrl": "/uploads/64293bc9-ba2b-4bf1-981a-d47b862d5c7a.jpg",
+      "createdAt": "2026-10-27T22:42:25.457Z"
+    },
+    {
+      "id": "c217aed8-1d85-416d-8239-cb4e83585265",
+      "name": "Daniel valdez",
+      "costume": "Claude",
+      "imageUrl": "/uploads/c217aed8-1d85-416d-8239-cb4e83585265.jpg",
+      "createdAt": "2026-10-27T22:43:02.800Z"
+    }
+  ],
+  "votesByVoter": {
+    "voter-zvgnzcnyg3-1793140992040": "a43df80d-5ebf-4cd7-bd3b-d4549e8ad56c",
+    "voter-a884jz8n24-1793139232477": "a43df80d-5ebf-4cd7-bd3b-d4549e8ad56c",
+    "voter-zjioomzo8ic-1793141033368": "4599537c-eaf4-4157-a35c-6733cbc07eaf",
+    "voter-exz6yrfrauu-1793141015272": "4599537c-eaf4-4157-a35c-6733cbc07eaf",
+    "voter-rww8imd8dtc-1793137958482": "3c97cf9e-a805-42f4-a1ea-78512250d645",
+    "voter-mz7h6h6op2-1793141064388": "a43df80d-5ebf-4cd7-bd3b-d4549e8ad56c",
+    "voter-n11ivg35018-1793141079847": "2cd771a9-c923-4506-bfc9-6691b623ce1d",
+    "voter-7var80a0nlt-1793141102792": "4599537c-eaf4-4157-a35c-6733cbc07eaf",
+    "voter-pv3msy9o7n-1793137941345": "a43df80d-5ebf-4cd7-bd3b-d4549e8ad56c",
+    "voter-6foaap155a8-1793141095084": "a43df80d-5ebf-4cd7-bd3b-d4549e8ad56c",
+    "voter-5xu1664y97e-1793141053633": "a43df80d-5ebf-4cd7-bd3b-d4549e8ad56c",
+    "voter-iuuy9ixzkgh-1793141050957": "2e5556bc-217e-43ab-9de4-8ebaf7f14047",
+    "voter-5afunixwmrh-1793137937439": "a43df80d-5ebf-4cd7-bd3b-d4549e8ad56c",
+    "voter-cs3xae72pu-1793141075789": "c217aed8-1d85-416d-8239-cb4e83585265",
+    "voter-rr6alvejmt-1793141082198": "c217aed8-1d85-416d-8239-cb4e83585265",
+    "voter-gx7vqkh2y4e-1793141084322": "4599537c-eaf4-4157-a35c-6733cbc07eaf",
+    "voter-krsontedkeg-1793141036033": "a43df80d-5ebf-4cd7-bd3b-d4549e8ad56c",
+    "voter-o8yrn8q6m2-1793141148230": "4599537c-eaf4-4157-a35c-6733cbc07eaf",
+    "voter-wi7tjhsj0n-1793141123605": "2cd771a9-c923-4506-bfc9-6691b623ce1d",
+    "voter-w4liohew10a-1793141176564": "2cd771a9-c923-4506-bfc9-6691b623ce1d",
+    "voter-pbppy7ib1dg-1793141186374": "4599537c-eaf4-4157-a35c-6733cbc07eaf",
+    "voter-aev2q98wl1k-1793141178119": "a43df80d-5ebf-4cd7-bd3b-d4549e8ad56c",
+    "voter-jr4wtbbt009-1793141196004": "c217aed8-1d85-416d-8239-cb4e83585265",
+    "voter-1do4ky36yu1-1793141229065": "2e5556bc-217e-43ab-9de4-8ebaf7f14047",
+    "voter-858mg24wkbs-1793141221470": "4599537c-eaf4-4157-a35c-6733cbc07eaf",
+    "voter-e6h4nb6sy9-1793141230926": "c217aed8-1d85-416d-8239-cb4e83585265"
+  }
 }

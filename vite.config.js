@@ -4,6 +4,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import os from 'node:os';
 import crypto from 'node:crypto';
+import { generateContestQr } from './scripts/generate-qr.js';
 
 const DATA_DIR = path.resolve(process.cwd(), 'data');
 const UPLOADS_DIR = path.resolve(process.cwd(), 'public', 'uploads');
@@ -136,6 +137,14 @@ function contestApiPlugin() {
   return {
     name: 'contest-api-plugin',
     configureServer(server) {
+      server.httpServer?.once('listening', () => {
+        const addr = server.httpServer.address();
+        const actualPort = typeof addr === 'object' && addr ? addr.port : 5173;
+        generateContestQr(actualPort).catch((err) => {
+          console.error('No se pudo generar el QR automáticamente:', err);
+        });
+      });
+
       server.middlewares.use(async (req, res, next) => {
         if (!req.url || !req.url.startsWith('/api/')) {
           return next();
